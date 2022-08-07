@@ -1,0 +1,113 @@
+/* Reset */
+
+body, h1, h2, h3, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #252525;
+}
+
+/* MENU */
+.menu {
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.menu-logo a {
+  display: block;
+  margin: 0 auto;
+}
+
+.menu-logo img {
+  padding: 20px;
+}
+
+/* HEADLINE */
+.headline {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 5em;
+}
+
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/bg-casamento.jpeg');
+  color: #fff;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DATA */
+.regressive {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.regressive-container {
+  display: block;
+  margin: 0 auto;
+}
+
+.regressive-item {
+  display: inline-block;
+  width: 80px;
+  border: #fff 1px solid;
+  margin: 0 4px;
+  padding: 20px 30px;
+  font-size: 4.5em;
+  font-family: 'Great Vibes', cursive;
+}
+
+.regressive-item .legenda {
+  font-size: 0.16666666666666666em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.regressive-date {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1.13em;
+  margin-top: 16px;
+}
+
+/* links */
+
+.links {
+  background-color: #E7E9EB;  
+  padding: 32px 0;
+  text-align: center;
+}
+
+.links .links-item {  
+  font-weight: bold;
+  margin: 16px auto;
+  border: #959799 1px solid;
+  display: block;
+  max-width: 350px;
+}
+
+.links .links-item a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: #646668;
+}
+
+.links .links-item a:hover {
+  color: #fff;
+  background-color: #646668;
+}
