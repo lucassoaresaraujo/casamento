@@ -122,6 +122,7 @@ body {
 .pagamentos-descricao{
   max-width: 600px;
   margin: 32px auto;
+  padding: 0 20px;
   text-align: justify;
   line-height: 1.5em;
 }
