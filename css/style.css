@@ -37,7 +37,10 @@ body {
 }
 
 .intro {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../img/background2.jpeg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 60%;
   color: rgb(255, 255, 255);
   text-shadow: 0.5px 0.5px 0.5px #444444;
   height: 100%;  
