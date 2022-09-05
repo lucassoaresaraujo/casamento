@@ -118,3 +118,10 @@ body {
   color: #fff;
   background-color: #646668;
 }
+
+.pagamentos-descricao{
+  max-width: 600px;
+  margin: 32px auto;
+  text-align: justify;
+  line-height: 1.5em;
+}
